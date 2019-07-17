@@ -12,7 +12,7 @@ This is a super easy to implement and highly customizable analog clock library
 Add this to your app build.gradle file
 ```` gradle
 dependencies {
-    compile 'com.tomerrosenfeld.customanalogclockview:custom-analog-clock-view:1.1'
+    implementation 'com.tomerrosenfeld.customanalogclockview:custom-analog-clock-view:1.1'
 }
 ````
 
@@ -68,11 +68,11 @@ The hourOnTop parameter determines the hour hand placement. If set to true, the 
 
 I suggest that you base your clock drawables on my default ones:
 
-[The Face](/custom-analog-clock-view/src/main/res/drawable-xhdpi/default_face.png)
+[The Face](https://github.com/rosenpin/custom-analog-clock-view/blob/master/library/src/main/res/drawable-xhdpi/default_face.png)
 
-[The Hour Hand](/custom-analog-clock-view/src/main/res/drawable-xhdpi/default_hour_hand.png)
+[The Hour Hand](https://github.com/rosenpin/custom-analog-clock-view/blob/master/library/src/main/res/drawable-xhdpi/default_hour_hand.png)
 
-[The Minute Hand](/custom-analog-clock-view/src/main/res/drawable-xhdpi/default_minute_hand.png)
+[The Minute Hand](https://github.com/rosenpin/custom-analog-clock-view/blob/master/library/src/main/res/drawable-xhdpi/default_minute_hand.png)
 
 Using this library I was easily able to create these analog clock widgets:
 
@@ -82,4 +82,3 @@ Using this library I was easily able to create these analog clock widgets:
 
 ## Licensing
 Custom Analog Clock View is licensed under the [GNU v3 Public License.](LICENSE)
-
